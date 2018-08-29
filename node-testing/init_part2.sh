@@ -1,4 +1,4 @@
 #!/bin/bash
-npm install nock --save-dev
+npm install nock -D
 
 npm install request

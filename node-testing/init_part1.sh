@@ -1,8 +1,6 @@
 #!/bin/bash
 sudo npm install mocha -g
 
-touch package.json
-echo {} > package.json
-
-npm install chai --save-dev
-npm install sinon --save-dev
+npm init -y
+npm install chai -D
+npm install sinon -D
