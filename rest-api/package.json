@@ -1,0 +1,22 @@
+{
+  "name": "greeting-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/greeting-api.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0"
+  }
+}
