@@ -1,10 +1,10 @@
 {
-  "name": "greeting-api",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/greeting-api.js",
+  "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
