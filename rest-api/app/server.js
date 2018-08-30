@@ -18,7 +18,7 @@ app.get("/api/greeting/:name?", (req, res) => {
 const port = process.env.PORT || 8080
 
 let server = app.listen(port, () => {
-  console.log(`greeting-api listening on ${port}`)
+  console.log(`server listening on ${port}`)
 })
 
 module.exports = server
